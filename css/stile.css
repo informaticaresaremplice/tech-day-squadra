@@ -1,0 +1,19 @@
+/* Galdus Tech Day 2027 · foglio di stile */
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+  background: #F7F6F1;
+  color: #1B2A41;
+  line-height: 1.5;
+}
+header, main, footer { max-width: 760px; margin: 0 auto; padding: 16px 24px; }
+header { border-bottom: 3px solid #D97A2B; }
+.evento { font-weight: 700; margin: 0 0 8px; }
+nav a { color: #2B7FD9; text-decoration: none; }
+nav a:hover { text-decoration: underline; }
+h1 { font-size: 2rem; margin: 24px 0 8px; }
+.quando { color: #4A5568; }
+table { width: 100%; border-collapse: collapse; background: #FFFFFF; }
+th, td { text-align: left; padding: 8px 12px; border-bottom: 1px solid #E3E6E4; }
+th { background: #1B2A41; color: #F7F6F1; }
+footer { color: #6A7179; font-size: 0.9rem; }
